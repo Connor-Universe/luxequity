@@ -1,0 +1,28 @@
+div.nav{
+    background: url('../img/pic2.jpg') center top no-repeat;
+}
+div.main{
+    margin-top: 150px;
+}
+
+div.section-one p.head{
+    color: #47495a;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+div.section-one p{
+    margin-bottom: 25px;
+
+}
+div.section-one{
+    width: 85%;
+    margin: auto;
+}
+@media screen and (max-width:576px){
+    div.section-one p.head{
+
+        font-size: 2rem;
+    }
+}

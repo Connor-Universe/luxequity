@@ -1,0 +1,653 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+div.section-one{
+    background: url('../img/pic1.jpg') center top no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1920px;
+}
+div.section-one p.section{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 48px;
+    max-width: 840px;
+    min-height: 208px;
+    margin: auto;
+    line-height: 52px;
+   padding-top: 180px;
+}
+
+div.section-one div.next{
+    position: relative;
+    top:50px;
+    margin: auto;
+    background: #05060a url('../img/pic3.png') center no-repeat;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 900px;
+    padding: 40px 70px 48px;
+    box-shadow: 1px 1.732px 10px 0 rgba(33, 30, 30, .15);
+    height: 176px;
+
+    
+
+}
+
+div.section-one div.next div.container-fluid p.link{
+    text-align: center;
+    width: 100%;
+    margin-top:30px;
+}
+div.section-one div.next p.first{
+    text-align: center;
+    font-size: 42px;
+    
+    width: 100%;
+    color: white;
+    line-height: 44px;
+    font-weight: 400;
+}
+div.effect{
+
+}
+div.section-one div.next div.container-fluid div.row  div.col-lg-4 div.effect{
+
+    transition: ease .3s;
+    font-family: 'Future PT Medium';
+    font-weight: 500;
+    z-index: 2;
+    max-width: 245px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    font-size: 16px;
+    border-radius: 7px;
+    background:linear-gradient(90deg, #4b21da 0%, #4488f7 100%);
+    box-shadow: -8px 8px 15px 0 #191253;
+    text-shadow: -0.669px 0.743px 1px rgba(24, 24, 26, .45);
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+div.section-one div.next div.container-fluid div.row div.col-lg-4 div.effect:before{
+    position: absolute;
+    z-index:-1;
+    content: '';
+    width: 35px;
+    height: 100px;
+    top: -10px;
+    left: -50px;
+    background-color: rgba(255, 255, 255, .5);
+    overflow: hidden;
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    animation: beam 1.5s ease infinite;
+    animation-fill-mode: forwards;
+    animation-name: example;
+}
+div.section-one div.next div.container-fluid div.row div.col-lg-4 a{
+    color: white ;
+    text-decoration: none;
+}
+@keyframes example {
+    0%   {left:-50px;}
+    100% {left:400px;}
+}
+div.section-one div.next div.container-fluid div.row div.col-lg-4 div.effect:after{
+    transition: ease .3s;
+    position: absolute;
+    z-index: -2;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-image: linear-gradient(90deg, #5f28fe 0%, #5aa9ff 100%);
+}
+
+
+
+/* End of section one  */
+/*Start of section two */
+div.section-two{
+
+    margin-top: 100px;
+    padding-bottom: 100px;
+
+}
+div.section-two img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    
+}
+div.section-two div.container div.row div.col-6{
+    padding-right: 1px;
+    padding-top: 7px;
+}
+div.section-two div.card{
+    background-color: white;
+    border: none;
+    height:fit-content;
+    border-radius: 15px;
+}
+div.section-two div.card p{
+    font-weight: 400;
+    min-height: 88px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #47495a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.section-two div.card span.purple{
+    color:darkslategrey;
+}
+/* End of section two */
+
+/* Start of section three */
+    div.section-three{
+        padding-bottom: 100px;
+    }
+    div.section-three p.head{
+        font-size: 50px;
+        line-height: 56px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+        color: #47495a;
+        padding-bottom:20px;
+    }
+    div.section-three div.container{
+        width: 70%;
+    }
+    div.section-three div.container img{
+        width: 100%;
+        height: auto;
+    }
+/* End of section three */
+/* Start of section four */
+    div.section-four{
+        padding-bottom: 100px;
+    }
+    div.section-four p.head{
+        font-size: 50px;
+        line-height: 56px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+        color: #47495a;
+        padding-bottom: 20px;
+   
+    }
+    div.section-four div.navs{
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+    }
+    div.section-four div.navs ul.nav-pills{
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #d4dde5;
+        padding-bottom: 15px;
+        padding-left: 40px;
+    
+    }
+    div.section-four div.navs ul.nav-pills a.nav-link{
+        background-color: transparent;
+        color: #6b7c93;
+        transition: ease .3s;
+        padding-top: 30px;
+        font-weight: 400;
+        position: relative;
+        font-size: 14px;
+        line-height: 16px;
+        margin-right: 22px;
+        cursor: pointer;
+        
+    }
+    div.section-four div.navs ul.nav-pills a.active{
+        color: #47495a;
+    }
+    div.section-four div.navs ul.nav-pills a.active:before{
+        background-color: #1fbdff;
+        width: 100%;
+        height: 1px;
+        left: 0;
+        opacity: 1;
+        transition: ease .3s;
+        position: absolute;
+        content: '';
+        bottom: -15px;
+        pointer-events: none;
+    }
+    div.section-four div.navs ul.nav-pills a.active:after{
+        height: 10px;
+        z-index: 2;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 27px;
+        background: #f2f7fb url('../img/pic12.png') center bottom no-repeat;
+        transition: ease .3s;
+        position: absolute;
+        content: '';
+        bottom: -15px;
+        pointer-events: none;
+    }
+    div.section-four div.navs ul.nav-pills a.nav-link:hover{
+        color: #bbb;
+    }
+    div.section-four img{
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        
+    }
+    div.section-four div.card{
+        background-color: white;
+        border: none;
+        width: 100%;
+        border-radius: 15px;
+
+    }
+    div.section-four .card-columns{
+        column-count: 5;
+        padding-top: 50px;
+    }
+    div.section-four div.card p{
+        font-weight: 400;
+    
+        font-size: 16px;
+        line-height: 30px;
+        color: #47495a;
+        padding-top: 30px;
+    }
+    div.section-four div.card-columns div.card a.read{
+        transition: ease .3s;
+        text-align: center;
+        background: linear-gradient(120deg, #7a4bff 0%, #5364de 29%, #4898ff 61%, #2dc2ff 83%, #1bddff 100%);
+        font-weight: 500;
+        padding: 12px 10px 11px;
+        font-size: 14px;
+        line-height: 18px;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+/* end of section four */
+/* start of section five */
+ div.section-five{
+     padding-bottom: 100px;
+ }
+ div.section-five p.head{
+    font-size: 50px;
+    line-height: 56px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: #47495a;
+    padding-bottom: 50px;
+
+ }
+ div.section-five div.slider{
+     margin: auto;
+     max-width:80%;
+     width: 100%;
+ }
+ div.section-five div.slider img{
+     max-width: 100%;
+     height: auto;
+     padding-right: 50px;
+     
+ }
+ div.section-five div.slider button.glider-next{
+   right: -40px;
+ }
+ div.section-five div.slider button.glider-prev{
+   left: -40px;
+ }
+/* end of section five */
+/*start of section six */
+ div.section-six{
+     padding-bottom: 100px;
+ }
+ div.section-six p.head{
+    font-size: 50px;
+    line-height: 56px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: #47495a;
+    padding-bottom: 50px;
+
+ }
+ div.section-six div.test{
+     max-width: 1000px;
+     width: 90%;
+     margin: auto;
+ }
+div.section-six div.test img{
+    width:125px;
+    height: auto;
+    padding-bottom: 10px;
+    margin: auto;
+}
+div.section-six div.test div.container-fluid div.row a.name{
+ color: #47495a;
+ border-bottom: 1px solid #47495a;
+ text-decoration: none;
+ text-align: center;
+ margin: auto;
+ font-weight: 500;
+ font-size: 18px;
+ 
+ 
+ 
+}
+div.section-six div.test div.container-fluid div.row a.name2{
+    color: #47495a;
+    border-bottom: 1px solid #47495a;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+div.section-six div.test div.container-fluid div.row div.col-md-2{
+    padding-right: 50px;
+}
+div.section-six div.test div.container-fluid div.row div.col-md-2 p{
+    text-align: center;
+    
+    margin-bottom: 0px;
+}
+div.section-six div.test div.container-fluid div.row div.col-md-2 a.company{
+    text-transform: uppercase;
+    color: #6753f2;
+    font-size: 14px;
+}
+div.section-six div.test div.container-fluid div.row div.col-md-2 p.title{
+    font-size: 14px;
+  
+}
+div.section-six div.test div.container-fluid div.row div.col-md-10{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 40px 40px 45px;
+    box-shadow:-1px 2px 10px 0px rgba(30, 30, 30, 0.05);
+    position: relative;
+    height: fit-content;
+
+}
+div.section-six div.test div.container-fluid div.row div.col-md-10:before{
+    content: '';
+    position: absolute;
+    top: 35px;
+    left:-12px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid #ffffff;
+}
+div.section-six div.test div.container-fluid div.row p.desc{
+    color: #747579;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 28px;
+
+}
+img.arrow{
+    max-width: 20px;
+    height: auto;
+}
+/* end of section six */
+/* start of section seven */
+div.section-seven{
+    padding-bottom: 100px;
+}
+div.section-seven p.head{
+    font-size: 50px;
+    line-height: 56px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: #47495a;
+    padding-bottom: 50px;
+}
+div.section-seven div.slider{
+    margin: auto;
+    max-width:90%;
+    width: 100%;
+}
+div.section-seven div.slider img{
+    max-width: 100%;
+    height: auto;
+    padding-right: 50px;
+    
+}
+/* end of section seven */
+
+/*start of section eight */
+
+div.section-eight div.next{
+    position: relative;
+    top:50px;
+    margin: auto;
+    background: #05060a url('../img/pic3.png') center no-repeat;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 900px;
+    padding: 40px 70px 48px;
+    box-shadow: 1px 1.732px 10px 0 rgba(33, 30, 30, .15);
+    height: 176px;
+
+    
+
+}
+
+div.section-eight div.next div.container-fluid p.link{
+    text-align: center;
+    width: 100%;
+    margin-top:30px;
+}
+div.section-eight div.next p.first{
+    text-align: center;
+    font-size: 42px;
+    
+    width: 100%;
+    color: white;
+    line-height: 44px;
+    font-weight: 400;
+}
+div.effect{
+
+}
+div.section-eight div.next div.container-fluid div.row  div.col-lg-4 div.effect{
+
+    transition: ease .3s;
+    font-family: 'Future PT Medium';
+    font-weight: 500;
+    z-index: 2;
+    max-width: 245px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    font-size: 16px;
+    border-radius: 7px;
+    background:linear-gradient(90deg, #4b21da 0%, #4488f7 100%);
+    box-shadow: -8px 8px 15px 0 #191253;
+    text-shadow: -0.669px 0.743px 1px rgba(24, 24, 26, .45);
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+div.section-eight div.next div.container-fluid div.row div.col-lg-4 div.effect:before{
+    position: absolute;
+    z-index:-1;
+    content: '';
+    width: 35px;
+    height: 100px;
+    top: -10px;
+    left: -50px;
+    background-color: rgba(255, 255, 255, .5);
+    overflow: hidden;
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    animation: beam 1.5s ease infinite;
+    animation-fill-mode: forwards;
+    animation-name: example;
+}
+div.section-eight div.next div.container-fluid div.row div.col-lg-4 a{
+    color: white ;
+    text-decoration: none;
+}
+@keyframes example {
+    0%   {left:-50px;}
+    100% {left:400px;}
+}
+div.section-eight div.next div.container-fluid div.row div.col-lg-4 div.effect:after{
+    transition: ease .3s;
+    position: absolute;
+    z-index: -2;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-image: linear-gradient(90deg, #5f28fe 0%, #5aa9ff 100%);
+}
+
+/*end of section eight */
+
+@media screen and (max-width:576px){
+
+    div.section-one p.section{
+     
+        font-size: 32px;
+        line-height: initial;
+    
+    }
+    div.section-one div.next p.first{
+        text-align: center;
+        font-size: 28px;
+        
+        width: 100%;
+        color: white;
+        line-height:initial;
+    }
+    div.section-two div.card p{
+        font-weight: 400;
+        min-height: 88px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom:0px;
+    }
+    div.section-two .col-4{
+        padding-top:8px;
+    }
+    div.section-four div.navs ul.nav-pills{
+   
+        padding-left:initial;
+        margin-left: 20px;
+    }
+    div.section-four .card-columns{
+     column-count: 2;
+     
+    }
+    div.section-three div.container{
+        width:initial;
+    }
+    div.section-six div.test div.container-fluid div.row div.col-md-2{
+        padding-right:initial;
+    }
+    div.section-eight div.next p.first{
+        text-align: center;
+        font-size: 28px;
+        
+        width: 100%;
+        color: white;
+        line-height:initial;
+    }
+}
+
+@media screen and (max-width:992px){
+    div.nav{
+        background: url('../img/pic2.jpg') center top no-repeat;
+    }
+    div.section-one div.next{
+        position: relative;
+        top:70px;
+        margin: auto;
+        background-color: #05060a;
+        border-radius: 10px;
+        width: 95%;
+        max-width: 900px;
+        padding: 40px 70px 48px;
+        box-shadow: 1px 1.732px 10px 0 rgba(33, 30, 30, .15);
+        height: initial;
+    
+        
+    
+    }
+    div.section-six div.test div.container-fluid div.row p.desc{
+        color: #747579;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 28px;
+    
+    }
+    div.section-two p.head{
+        font-size: 30px;
+    }
+    div.section-three p.head{
+        font-size: 30px;
+    }
+    div.section-four p.head{
+        font-size: 30px;
+    }
+    div.section-five p.head{
+        font-size: 30px;
+    }
+    div.section-six p.head{
+        font-size: 30px;
+    }
+    div.section-seven p.head{
+        font-size: 30px;
+    }
+
+    
+    div.section-one div.next div.container-fluid p.link{
+        text-align: center;
+        width: 100%;
+        margin-top:15px;
+    }
+    div.section-eight div.next{
+        position: relative;
+        top:70px;
+        margin: auto;
+        background-color: #05060a;
+        border-radius: 10px;
+        width: 95%;
+        max-width: 900px;
+        padding: 40px 70px 48px;
+        box-shadow: 1px 1.732px 10px 0 rgba(33, 30, 30, .15);
+        height:fit-content;
+    
+        
+    
+    }
+
+}

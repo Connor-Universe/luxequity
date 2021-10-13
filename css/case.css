@@ -1,0 +1,37 @@
+div.nav{
+    background: url('../img/pic2.jpg') center top no-repeat;
+}
+div.main{
+    margin-top: 150px;
+}
+
+div.section-one p{
+    color: #47495a;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+div.section-one div.card a.btn{
+    color: white;
+    text-transform: uppercase;
+}
+div.section-one div.card-columns{
+    column-count: 4;
+}
+div.section-one{
+    width: 85%;
+    margin: auto;
+}
+@media screen and (max-width:576px){
+    div.section-one p{
+
+        font-size: 1rem;
+    }
+
+}
+@media screen and  (max-width:992px){
+    div.section-one div.card-columns{
+        column-count: 2;
+        padding-bottom: 30px;
+    }
+}

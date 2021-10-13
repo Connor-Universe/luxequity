@@ -1,0 +1,180 @@
+div.footer{
+    width: 100%;
+    max-width: 1920px;
+    background: url('../img/footer-bg8f14.jpg') center bottom;
+    background-repeat: repeat-y;
+    margin: auto;
+    padding-bottom: 40px;
+}
+div.footer section.contacts{
+    padding-top: 130px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1170px;
+    margin: auto;
+}
+div.footer footer p.head{
+    font-size: 50px;
+    line-height: 56px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+div.footer footer div.first p.first{
+
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+}
+div.footer footer div.first input[type=text]{
+    width: 100%;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 30px;
+    padding: 25px 15px 25px 29px;
+    border-radius: 7px;
+    background-color: #3a3e74;
+    box-shadow: 1px 0 0 rgba(255, 255, 255, .05), inset 0 2px 4px 0 rgba(20, 49, 89, .004);
+    font-size: 16px;
+    line-height: 20px;
+    color: #a9b3c1;
+    border: none;
+    overflow: visible;
+}
+div.footer footer div.first textarea{
+
+    width: 100%;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 15px 55px 29px;
+    border-radius: 7px;
+    background-color: #3a3e74;
+    box-shadow: 1px 0 0 rgba(255, 255, 255, .05), inset 0 2px 4px 0 rgba(20, 49, 89, .004);
+    font-size: 16px;
+    height: 98px;
+    line-height: 20px;
+    color: #a9b3c1;
+    border: none;
+    overflow:auto;
+}
+div.footer footer div.first button{
+    width: 100%;
+    transition: ease .3s;
+    font-weight: 500;
+    padding: 16px 15px 15px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: #ffae13;
+    border: none;
+}
+div.footer footer div.first ul li{
+    display: block;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0 10px 20px;
+    transition: ease .3s;
+    line-height: 20px;
+    text-decoration: none;
+    position: relative;
+}
+div.footer footer div.first ul li a{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0 10px 20px;
+    transition: ease .3s;
+    line-height: 20px;
+    text-decoration: none;
+ 
+}
+div.footer footer div.first ul li img{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 25px;
+    left: -25px;
+}
+div.footer footer div.first img.social{
+    top: -5px;
+}
+div.footer footer div.first ul{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+div.footer hr{
+    color: white;
+}
+div.footer footer div.next{
+    max-width:1000px;
+    width: 100%;
+    margin: auto;
+}
+div.footer footer div.next ul li{
+    display: block;
+}
+div.footer footer div.next ul li a{
+    color: #d6e6ec;
+    font-size:14px ;
+    font-weight: 400;
+}
+div.footer .contact-success{
+    color:darkorange;
+    margin-top:5vh;
+    text-align:center;
+    font-size:1.2rem;
+}
+div.footer .contact-fail{
+    color:#8b0000;
+    margin-top:5vh;
+    text-align:center;
+    font-size:1.2rem;
+}
+div.footer .error{
+    color:darkblue;
+    background-color:#fff;
+    border-radius:40px;
+    border-style:solid;
+    border-color:darkblue;
+    padding-right:10px;
+    padding-left:10px;
+    margin-top:1vh;
+}
+div.footer footer p.lux{
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    color: #d6e6ec;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+}
+div.footer footer p.about {
+    text-align: center;
+    margin-top: 30px;
+}
+div.footer footer p.about a{
+    padding: 15px 35px;
+    border: 2px solid #9fcbf5;
+    border-radius: 6px;
+    width: 190px;
+    text-decoration: none;
+    margin-top: 15px;   
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
